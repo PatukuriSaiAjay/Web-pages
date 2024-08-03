@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            form
+        </title>
+    </head>
+    
+    <body>
+        <h1> Course Regetration form</h1>
+<form action>
+	<fieldset>
+		<legend>Personal details:</legend>
+		<table>
+			<tr><td><label>First name</label></td><td><input type="text" name="fname" placeholder="ex:saiajay" size="15" ></td></tr>
+			<tr><td><label>Surname</label></td><td><input type="text" name="surname" placeholder="ex:patukuri" size="15" ></td></tr>
+			<tr><td><label>Mobile Number</label></td><td><input type="tel" name="Mobile" placeholder="6304-421-221" maxlength="10"></td></tr>
+			<tr><td><label>Email</label></td><td><input type="email" name="mail" placeholder="ex:patukurisaiajay@gmail.com" ></td></tr>
+			<tr><td><label>Password</label></td><td><input type="password" name="pwd" placeholder="minimum 5 digits"></td></tr>
+			<tr><td><label>Confirm Password</label></td><td><input type="password" name="cnpwd" placeholder="minimum 5 digits"></td></tr>
+			<tr><td><label>DOB</label></td><td><label>DOB</label></td></tr>
+			<tr><td><label>Gender</label></td><td><input type="radio" name="gender" value="M">male<input type="radio" name="gender" value="F">female<input type="radio" name="gender" value="O">custom</td></tr>
+		    <tr><td><label>Select country</label></td><td><select name="country">
+				<option value="INDIA">INDIA</option>
+				<option value="USA">USA</option>
+				<option value="LANKA">LANKA</option>
+			</select></td></tr>
+		     <tr><td><label>Upload Picture</label></td><td><input type="file"></td></tr>
+		     <tr><td><input type="reset"></td></tr>
+		
+		</table>
+	</fieldset>
+	<fieldset>
+		<legend>course details:</legend>
+		<label>Select course:</label>
+		<select>
+			<option value="jfs">java full stack</option>
+			<option value="pfs">python full stack</option>
+			<option value="cj">core java</option>
+			<option value="cp">core python</option>
+		</select><br>
+		<label>Delievery mode</label><input type="checkbox">online <input type="checkbox">offline<br>
+		<label>Comments</label><textarea rows="4" cols="40"></textarea>
+
+	</fieldset>
+	<img src="C:\Users\SS\Desktop\mca SEM\Frontend\images\submit.jpeg" height="75" width="75">
+</form>
+    </body>
+</html>
